@@ -14,6 +14,7 @@ class TestBasic(BaseClass):
 
     def test_e2e(self):
 
+        # changes made to git
         productPage = ProductPage(self.driver)
         cartPage = CartDetailsPage(self.driver)
 
